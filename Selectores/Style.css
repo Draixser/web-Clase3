@@ -1,0 +1,19 @@
+p::before{
+    content: "👍";
+}
+p::after{
+    content: "👎";
+}
+::placeholder{
+    color: saddlebrown;
+}
+p:hover{
+    color: blanchedalmond;
+}
+div p:nth-child(2){
+    color: palevioletred;
+}
+
+div p:nth-child(2):hover{
+    color: plum;
+}
