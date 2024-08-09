@@ -1,0 +1,74 @@
+div{
+   
+    width: 100vw;
+    height: 100px;
+    background: yellowgreen;
+}
+
+
+p::before{
+    content: "🧸";
+}
+p::after{
+    content: "🧸";
+}
+
+.uaoclass{
+    color: blueviolet;
+    width: 100vw;
+    height: 100px;
+}
+
+#uaoid{
+    background: plum;
+    width: 100vw;
+    height: 200px;
+}
+
+a[href="https://www.uao.edu.co"]{
+    color: red;
+    text-decoration: none;
+}
+.Uni{
+    background: orange;
+    width: 100vw;
+    height: 50px;
+}
+
+
+@media ( min-width: 400px){
+    div{
+        width: 100vw;
+        height: 80px;
+        background: blue;
+        color: yellow;
+    }
+
+    .uaoclass{
+        color: yellow;
+        width: 100vw;
+        height: 100px;
+    }
+    #uaoid{
+        background: salmon;
+        width: 100vw;
+        height: 80px;
+    }
+    a[href="https://www.uao.edu.co"]{
+        color: green;
+        text-decoration: none;
+    }
+    .Uni{
+        color: aliceblue;
+        background: maroon;
+        width: 100vw;
+        height: 50px;
+    }
+    p::before{
+        content: "👍";
+    }
+    p::after{
+        content: "👎";
+    }
+ 
+}
